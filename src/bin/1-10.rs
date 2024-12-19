@@ -5,7 +5,6 @@ impl Solution {
     fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
 
         let mut num_map: HashMap<i32, i32> = HashMap::new();
-
         for (i, &num) in nums.iter().enumerate() {
             let i = i as i32; // Predefine the index as i32
             let complement = target - num;

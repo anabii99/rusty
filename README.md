@@ -36,6 +36,8 @@ readelf -p .comment target/debug/main
 - 1,
     1-10, how handling index as i32 not usize
     1-dod, add data oriented design
+    1-16, build your own hashmap
+    1-sicp, add sicp style
 - 2, optimize for someone hate .unwrap()
     - 2-4, get rid of unwrap() with Some()
     - 2-5, use pattern matching like match with Some()
@@ -73,6 +75,8 @@ readelf -p .comment target/debug/main
 - 1684
     - 1684-2, our first lifetime
     - 1684-3, if you hate to_string()
+- 1792, no one want to solve this
+    1792-2, stackoverflow notes is really good
 - 1932, it takes a lot of time for solve this things
 - 2058, nice idea for using Some()
 - 2326, rust really wild in this questions, vector, linkedlist

@@ -11,5 +11,9 @@
         }
     },
     "rust-analyzer.inlayHints.closingBraceHints.enable": false,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "lldb.displayFormat": "auto",
+    "lldb.showDisassembly": "always",
+    "lldb.dereferencePointers": true,
+    "lldb.consoleMode": "commands"
 }
